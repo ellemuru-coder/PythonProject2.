@@ -1,0 +1,9 @@
+name=input("anna nimesi: ")
+print("hei " + name)
+import math
+sade=float(input("anna ympyrän säde: "))
+pinta_ala= math.pi * sade ** 2
+
+print(f"Ympyrän pinta-ala on {pinta_ala}")
+
+
